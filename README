@@ -1,0 +1,25 @@
+Para compilar los archivos se debe usar la instruccion de terminal  
+
+>> make build
+
+La cual se va a encargar de compilar los cuatro archivos de codigo fuente.
+
+Dependiendo de la opcion qu ese quiera ejecutar se van a usar instrucciones en la terminal diferentes. 
+
+Para ejecutar el codigo de forma serial:
+
+>> make run_serial
+
+Para ejecutar el codigo de forma paralela sin el for:
+
+>> make run_Parallel
+
+para ejecutar el codigo de forma paralela con el for:
+
+>> make run_ParallelFor
+
+Para ejecutar el codigo paralelo unicamente cuando la aceleracion es mayor a 1,2:
+ 
+>> make run_Parallel12
+
+
